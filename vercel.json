@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "chat-app",
   "builds": [
     {
       "src": "backend/server.js",
@@ -10,7 +9,7 @@
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "frontend/dist"
+        "distDir": "dist"
       }
     }
   ],
@@ -25,4 +24,3 @@
     }
   ]
 }
-
